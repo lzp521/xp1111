@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../sass/logon.css">
+    <link rel="stylesheet" href="../sass/Commonstyle2.css">
+</head>
+<body style="background: #ffffff;">
+    <!-- logo -->
+    <div class="logo">
+        <img src="./img/logo.png" alt="">
+    </div>
+    <!-- daloge -->
+    <div class="logohe">
+        <div class="dalogo">
+            <!-- 图 -->
+            <div class="bd">
+                <img src="../img/pt.jpg" alt="" >
+            </div><!-- 图 -->
+
+            <!-- 登录 -->
+            <div class="logoRight">
+                <div class="securitycode">
+                    <span class="mm dl">密码登录</span>
+                    <span class="sj dl">手机登录</span>
+                </div>
+                <!-- form -->
+                <form action="" class="logo_form">
+                  <!-- <input type="hidden" name="ret_url" value="">
+                  <input type="hidden" id="type" value="1"> -->
+                  <!-- 用户名盒子 -->
+                  <div class="ValueHe">
+                    <input onkeypress="enterPress(event);" placeholder="用户名/手机号码" ullmsg="不能为空" id="uname" name="uname" type="text" maxlength="32" datatype="*">
+                    <input type="password" onkeypress="enterPress(event);" id="pass" placeholder="密码" name="pass" maxlength="32" datatype="*">
+                 <!-- 验证码 -->
+                  <div class="yzm">
+                    <input type="text" id="yanzheng" onkeypress="enterPress(event);" placeholder="验证码" name="captcha" datatype="*" maxlength="8" autocomplete="off">
+                    <span class="ren">
+                      <p>
+                        <a href="javascript:void(0);" id="refresh_img" class="renewedly">
+                          <img id="yanzheng_img" class="yanzhengma" style="top:12px;" alt="CAPTCHA" src="/index.php?app=captcha&amp;act=index&amp;num=397"> 
+                        </a>
+                      </p>
+                    </span>
+                    <div class="i-pass ico"></div>
+                    <span id="yanzheng_span"></span>
+                    
+                  </div><!-- 验证码 -->
+                  <input type="button" value="登录" class="form_button">
+                  </div><!-- 用户名盒子 -->
+                  <div style="float: right">
+                    <a class="sign" href="https://www.ecduo.cn/register">立即注册</a>
+                    <a class="forget_password" href="https://www.ecduo.cn/new_index.php?app=find_password" target="_blank">忘记密码</a>
+                  </div>
+                  <label class="remeber_me">
+                    <input type="checkbox" id="Check" tabindex="4" value="1" name="self_login">记住我</label>
+
+                </form> <!-- form -->
+                <!-- 第三登录 -->
+                <div class="third_login">
+                  <div class="line"></div>
+                  <div class="title">第三方登录</div>
+                  <div class="line"></div>
+                </div><!-- 第三登录 -->
+                <!-- 跳转微信 -->
+                <div class="third_logo">
+                  <img src="img/wx.png" alt="" id="wx">
+                </div>
+            </div><!-- 登录 -->
+        </div>
+    </div>
+    <!-- 结尾 -->
+    <div class="foot">
+        <div class="fooder">
+            <!-- <div class="xp">
+                <img src="../src/img/000.png" alt="">
+            </div> -->
+            <div class="ContentClearfix">
+                <div>
+                    <img src="../src/img/ewm.png" style="float: right; margin-right: 80px;" alt="">
+                </div>
+                <dl class="item_1">
+                    <dt>关于<label style="display: inline;font-size: 12px;font-weight: normal;">多商网</label></dt>
+                    <dd>
+                      <ul>
+                        <li> <a href="" target="_blank">了解<label style="display: inline;font-size: 12px;font-weight: normal;">多商网</label></a> </li>
+                        <li> <a href="">密码找回</a> </li>
+                        <li> <a href="">常见问题</a> </li>
+                        <li> <a href="">联系我们</a> </li>
+                        <li> <a href="">营业执照</a> </li>
+                        <li> <a href="">食品经营许可证</a> </li>
+                      </ul>
+                    </dd>
+                  </dl>
+                  <dl class="item_2">
+                    <dt>分销商帮助</dt>
+                    <dd>
+                      <ul>
+                       <li><a href="">如何成为分销商</a></li>
+                       <li><a href="">进货、分销上架流程</a></li>
+                       <li><a href="">分销商成长路径</a></li>
+                      </ul>
+                    </dd>
+                  </dl>
+                  <dl class="item_3">
+                    <dt>供应商帮助</dt>
+                    <dd>
+                      <ul>
+                        <li> <a href="">我要入驻</a> </li>
+                        <li> <a href="">商品上架流程</a> </li>
+                      </ul>
+                    </dd>
+                  </dl>
+                  <dl class="item_4">
+                    <dt>多商学院</dt>
+                    <dd>
+                      <ul>
+                        <li> <a href="">电商头条</a> </li>
+                        <li> <a href="">明星卖家</a> </li>
+                        <li> <a href="">新零售</a> </li>
+                        <li> <a href="">培训</a> </li>
+                      </ul>
+                    </dd>
+                  </dl>
+            </div>
+            <div class="container"">
+                <img src="../src/img/ds_nz_f.jpg" alt="">
+            </div>
+            <div class="foot_nav"> 
+                <a href="">关于我们</a> | 
+                <a href="" target="_blank">用户帮助</a> | 
+                <a href="" target="_blank">法律声明</a> | 
+                <a href="">联系我们</a> | 
+                <a href="">多商学院</a> | 
+                <a href="">经营证照</a>
+        </div>
+            <p> 趋势动力旗下广州友商信息科技有限公司版权所有©2005-2020   粤ICP备11099332号 站长统计站长统计</p>
+            <p>珠三角云供应链平台，支持淘宝代销、网店代理，免费提供一件代发</p>
+            <p>地址: 广州市中山大道89号天河软件园华景园区B栋西梯五楼 电话：400-616-3518</p>
+          </div>
+</body>
+</html>

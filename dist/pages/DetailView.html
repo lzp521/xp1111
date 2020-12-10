@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="../sass/DetailView.css">
+    <link rel="stylesheet" href="../sass/Commonstyle.css">
+    <link rel="stylesheet" href="../sass/Commonstyle.css">
+</head>
+<body style="background: white;">
+
+     <!-- 头部 -->
+    <div class="hadd">
+        <!-- 头部 -->
+        <div class="welcone">
+            <div class="Bigbox">
+            <div class="TheIeftBox">
+                <a href="" class="duola">欢迎来到多啦网</a>
+                <a href="">请登录|</a>
+                <a href="">免费注册</a>
+            </div>
+            <div class="TheRightBox">
+                    <a href="">我的多商</a>
+                    <a href="">进货单</a>
+                    <a href="">我的收藏</a>
+                    <a href="">客服服务</a>
+                    <a href="">手机多商</a>
+            </div>
+        </div>
+    </div>
+        <!-- 搜索 -->
+        <div class="hez" style="background: white;">
+        <div class="search">
+            <img src="../src/img/logo.png" alt="" class="logo">
+            <div class="search1">
+                <a href="" id="searchbox">
+                    <input type="text" placeholder="   收款方">
+                    <img src="../src/img/ss.jpg" alt="">
+                </a>
+            <ul>
+                <li>热门搜索:</li>
+                <li><a href="">纸尿裤</a></li>
+                <li><a href="">春娟</a></li>
+                <li><a href="">手表</a></li>
+                <li><a href="">凡士林</a></li>
+                <li><a href="">洗发水</a></li>
+                
+            </ul>
+            </div>
+            <img src="../src/img/chagnjia.png" alt="" class="imga">
+            <img src="../src/img/daifa.png" alt="" class="imga">
+        </div>
+    </div>
+    </div>
+    <!-- 导航 -->
+        <!-- 盒子 -->
+    <div class="dahe">
+        <div class="xiaohe">
+            <ul class="ull_ul">
+                <li class="hongs">
+                    <a href="" class="aa">首页</a>
+                </li>
+                <li>
+                    <a href="" class="aa">首页首页</a>
+                    <!-- 二菜单 -->
+                    <!-- <div class="menuBox">
+                        <div class="menu">
+                            <ul class="ull_ul1">
+                                <div class="dd">
+                                    <li>
+                                        <a href="">恐惧</a> 
+                                    </li>
+                                </div>
+                                <div class="dd">
+                                    <li>
+                                        <a href="">社交恐惧</a> 
+                                    </li>
+                                    <li>
+                                        <a href="">社交恐惧</a> 
+                                    </li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </li> -->
+                </li><li>
+                    <a href="">首页首页</a>
+                </li>
+                <li>
+                    <a href="">首页首页</a>
+                </li>
+                <li>
+                    <a href="">首页首页</a>
+                </li>
+                <li>
+                    <a href="">首页首页</a>
+                </li>
+                <li>
+                    <a href="">首页首页</a>
+                </li>
+                <li>
+                    <a href="">首页首页</a>
+                </li>
+                <li>
+                    <a href="">首页首页</a>
+                </li>
+                <li>
+                    <a href="">首页首页</a>
+                </li>
+                <li>
+                    <a href="">首页首页</a>
+                </li>
+                <li>
+                    <a href="">首页首页</a>
+                </li>
+                <li>
+                    <a href="">首页首页</a>
+                </li>
+                <li>
+                    <a href="">首页首页</a>
+                </li>
+                <li>
+                    <a href="">首页</a>
+                </li>
+            </ul>
+        </div>
+    </div><!-- 盒子 -->
+    <!--  -->
+    <div class="tb-container market-wrap clearfix">
+        <div class="tb-wrapper">
+          <div class="tb-wrapper-main">
+              <div id="minilist-propertyList-1">
+                <div class="m-property-list clearfix">
+                  <div class="row-all">
+                    <div class="propertys J_activePropertys clearfix">
+                        <span class="count">
+                            <a href="">首页 &gt; </a>
+                            <a href="" name="母婴童装">母婴童装 &gt; </a>
+                            <a href="" name="洗护">洗护 &gt; </a>
+                            <a href="" name="洗发水">洗发水</a>
+                            <!-- <a href="#">箱包配饰 &gt; </a><a href="#">女包 &gt; </a><a href="#">单肩包</a> -->
+                        </span>
+                        <span class="count crumb-search">
+                            <input type="text" id="search_keyword" class="crumb-search-input ui-text" placeholder=" 在当前状态下搜索" value="" onkeypress="enterPress2(event);">
+                            <input type="button" id="search_keyword_btn" class="crumb-search-btn" onclick="search_keyword();">
+                        </span>
+                        <span class="count">共 <span class="num">5</span> 件宝贝</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="search-result-container clearfix" id="search_result_container">
+                  <div id="container_left" class="container-left container-left-min">
+                       <div class="filter-tui" id="_sort">
+                          <div id="proTitle" class="clearfix">
+                              <a href="" class="tui_sort ifname" id="sss" title="">综合排序</a>
+                              <a href="" class="tui_sort" id="sss" title="">销量<i class="filter-sort-d"></i></a>
+                              <a href="" class="tui_sort" title="">新品<i class="filter-sort-d"></i></a>
+                              <a href="" class="tui_sort" title="">价格<i class=""></i></a>
+                          </div>
+                        <ul>
+                            代销方式：
+                            <select onchange="window.location.href=this.value">
+                                <option value="/glist-c_2030301-d_0.html" selected="selected">所有</option>
+                                <option value="/glist-c_2030301-d_1.html">一件代发</option>
+                                <option value="/glist-c_2030301-d_2.html">批发</option>
+                            </select>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mt-20" id="mt-30">
+            <ul>
+                <li class="spxiaohe" id="zuospxiaohe">
+                    <a href=""> 
+                        <img src="./img/jif.jpg" alt="">
+                    </a>
+                    <div class="div2">
+                        <a href="" class="title">
+                            御阳唤醒肌肤珍贵精油</a>
+                    </div>
+                    <div class="warp1">
+                        <a class="loginLook" href="/product/3358074.html">￥
+                            <span> 457.00</span>
+                        </a>
+                        <p class="xiaoliang">月销:<span>0</span></p>
+                    </div>
+                    <div class="warp2">
+                        <a class="goods_info add_box" goods_id="3358074" href="javascript:;">
+                            <div>
+                                <img src="./img/jiaru.png" alt="加入上架篮" style="visibility: visible; opacity: 1;">
+                            </div>
+                            <span>加入上架篮</span>
+                        </a>
+                    </div>
+                </li>
+                <li class="spxiaohe">
+                    <a href=""> 
+                        <img src="./img/jif.jpg" alt="">
+                    </a>
+                    <div class="div2">
+                        <a href="" class="title">
+                            御阳唤醒肌肤珍贵精油</a>
+                    </div>
+                    <div class="warp1">
+                        <a class="loginLook" href="/product/3358074.html">￥
+                            <span> 457.00</span>
+                        </a>
+                        <p class="xiaoliang">月销:<span>0</span></p>
+                    </div>
+                    <div class="warp2">
+                        <a class="goods_info add_box" goods_id="3358074" href="javascript:;">
+                            <div>
+                                <img src="./img/jiaru.png" alt="加入上架篮" style="visibility: visible; opacity: 1;">
+                            </div>
+                            <span>加入上架篮</span>
+                        </a>
+                    </div>
+                </li>
+                <li class="spxiaohe">
+                    <a href=""> 
+                        <img src="./img/jif.jpg" alt="">
+                    </a>
+                    <div class="div2">
+                        <a href="" class="title">
+                            御阳唤醒肌肤珍贵精油</a>
+                    </div>
+                    <div class="warp1">
+                        <a class="loginLook" href="/product/3358074.html">￥
+                            <span> 457.00</span>
+                        </a>
+                        <p class="xiaoliang">月销:<span>0</span></p>
+                    </div>
+                    <div class="warp2">
+                        <a class="goods_info add_box" goods_id="3358074" href="javascript:;">
+                            <div>
+                                <img src="./img/jiaru.png" alt="加入上架篮" style="visibility: visible; opacity: 1;">
+                            </div>
+                            <span>加入上架篮</span>
+                        </a>
+                    </div>
+                </li>
+                <li class="spxiaohe" id="youspxiaohe">
+                    <a href=""> 
+                        <img src="./img/jif.jpg" alt="">
+                    </a>
+                    <div class="div2">
+                        <a href="" class="title">
+                            御阳唤醒肌肤珍贵精油</a>
+                    </div>
+                    <div class="warp1">
+                        <a class="loginLook" href="/product/3358074.html">￥
+                            <span> 457.00</span>
+                        </a>
+                        <p class="xiaoliang">月销:<span>0</span></p>
+                    </div>
+                    <div class="warp2">
+                        <a class="goods_info add_box" goods_id="3358074" href="javascript:;">
+                            <div>
+                                <img src="./img/jiaru.png" alt="加入上架篮" style="visibility: visible; opacity: 1;">
+                            </div>
+                            <span>加入上架篮</span>
+                        </a>
+                    </div>
+                </li>
+                <li class="spxiaohe" id="zuospxiaohe">
+                    <a href=""> 
+                        <img src="./img/jif.jpg" alt="">
+                    </a>
+                    <div class="div2">
+                        <a href="" class="title">
+                            御阳唤醒肌肤珍贵精油</a>
+                    </div>
+                    <div class="warp1">
+                        <a class="loginLook" href="/product/3358074.html">￥
+                            <span> 457.00</span>
+                        </a>
+                        <p class="xiaoliang">月销:<span>0</span></p>
+                    </div>
+                    <div class="warp2">
+                        <a class="goods_info add_box" goods_id="3358074" href="javascript:;">
+                            <div>
+                                <img src="./img/jiaru.png" alt="加入上架篮" style="visibility: visible; opacity: 1;">
+                            </div>
+                            <span>加入上架篮</span>
+                        </a>
+                    </div>
+                </li>
+                <li class="spxiaohe">
+                    <a href=""> 
+                        <img src="./img/jif.jpg" alt="">
+                    </a>
+                    <div class="div2">
+                        <a href="" class="title">
+                            御阳唤醒肌肤珍贵精油</a>
+                    </div>
+                    <div class="warp1">
+                        <a class="loginLook" href="/product/3358074.html">￥
+                            <span> 457.00</span>
+                        </a>
+                        <p class="xiaoliang">月销:<span>0</span></p>
+                    </div>
+                    <div class="warp2">
+                        <a class="goods_info add_box" goods_id="3358074" href="javascript:;">
+                            <div>
+                                <img src="./img/jiaru.png" alt="加入上架篮" style="visibility: visible; opacity: 1;">
+                            </div>
+                            <span>加入上架篮</span>
+                        </a>
+                    </div>
+                </li>
+                <li class="spxiaohe">
+                    <a href=""> 
+                        <img src="./img/jif.jpg" alt="">
+                    </a>
+                    <div class="div2">
+                        <a href="" class="title">
+                            御阳唤醒肌肤珍贵精油</a>
+                    </div>
+                    <div class="warp1">
+                        <a class="loginLook" href="/product/3358074.html">￥
+                            <span> 457.00</span>
+                        </a>
+                        <p class="xiaoliang">月销:<span>0</span></p>
+                    </div>
+                    <div class="warp2">
+                        <a class="goods_info add_box" goods_id="3358074" href="javascript:;">
+                            <div>
+                                <img src="./img/jiaru.png" alt="加入上架篮" style="visibility: visible; opacity: 1;">
+                            </div>
+                            <span>加入上架篮</span>
+                        </a>
+                    </div>
+                </li>
+                <li class="spxiaohe" id="youspxiaohe">
+                    <a href=""> 
+                        <img src="./img/jif.jpg" alt="">
+                    </a>
+                    <div class="div2">
+                        <a href="" class="title">
+                            御阳唤醒肌肤珍贵精油</a>
+                    </div>
+                    <div class="warp1">
+                        <a class="loginLook" href="/product/3358074.html">￥
+                            <span> 457.00</span>
+                        </a>
+                        <p class="xiaoliang">月销:<span>0</span></p>
+                    </div>
+                    <div class="warp2">
+                        <a class="goods_info add_box" goods_id="3358074" href="javascript:;">
+                            <div>
+                                <img src="./img/jiaru.png" alt="加入上架篮" style="visibility: visible; opacity: 1;">
+                            </div>
+                            <span>加入上架篮</span>
+                        </a>
+                    </div>
+                </li>
+                <li class="spxiaohe" id="zuospxiaohe">
+                    <a href=""> 
+                        <img src="./img/jif.jpg" alt="">
+                    </a>
+                    <div class="div2">
+                        <a href="" class="title">
+                            御阳唤醒肌肤珍贵精油</a>
+                    </div>
+                    <div class="warp1">
+                        <a class="loginLook" href="/product/3358074.html">￥
+                            <span> 457.00</span>
+                        </a>
+                        <p class="xiaoliang">月销:<span>0</span></p>
+                    </div>
+                    <div class="warp2">
+                        <a class="goods_info add_box" goods_id="3358074" href="javascript:;">
+                            <div>
+                                <img src="./img/jiaru.png" alt="加入上架篮" style="visibility: visible; opacity: 1;">
+                            </div>
+                            <span>加入上架篮</span>
+                        </a>
+                    </div>
+                </li>
+                <li class="spxiaohe">
+                    <a href=""> 
+                        <img src="./img/jif.jpg" alt="">
+                    </a>
+                    <div class="div2">
+                        <a href="" class="title">
+                            御阳唤醒肌肤珍贵精油</a>
+                    </div>
+                    <div class="warp1">
+                        <a class="loginLook" href="/product/3358074.html">￥
+                            <span> 457.00</span>
+                        </a>
+                        <p class="xiaoliang">月销:<span>0</span></p>
+                    </div>
+                    <div class="warp2">
+                        <a class="goods_info add_box" goods_id="3358074" href="javascript:;">
+                            <div>
+                                <img src="./img/jiaru.png" alt="加入上架篮" style="visibility: visible; opacity: 1;">
+                            </div>
+                            <span>加入上架篮</span>
+                        </a>
+                    </div>
+                </li>
+                <li class="spxiaohe">
+                    <a href=""> 
+                        <img src="./img/jif.jpg" alt="">
+                    </a>
+                    <div class="div2">
+                        <a href="" class="title">
+                            御阳唤醒肌肤珍贵精油</a>
+                    </div>
+                    <div class="warp1">
+                        <a class="loginLook" href="/product/3358074.html">￥
+                            <span> 457.00</span>
+                        </a>
+                        <p class="xiaoliang">月销:<span>0</span></p>
+                    </div>
+                    <div class="warp2">
+                        <a class="goods_info add_box" goods_id="3358074" href="javascript:;">
+                            <div>
+                                <img src="./img/jiaru.png" alt="加入上架篮" style="visibility: visible; opacity: 1;">
+                            </div>
+                            <span>加入上架篮</span>
+                        </a>
+                    </div>
+                </li>
+                <li class="spxiaohe" id="youspxiaohe">
+                    <a href=""> 
+                        <img src="./img/jif.jpg" alt="">
+                    </a>
+                    <div class="div2">
+                        <a href="" class="title">
+                            御阳唤醒肌肤珍贵精油</a>
+                    </div>
+                    <div class="warp1">
+                        <a class="loginLook" href="/product/3358074.html">￥
+                            <span> 457.00</span>
+                        </a>
+                        <p class="xiaoliang">月销:<span>0</span></p>
+                    </div>
+                    <div class="warp2">
+                        <a class="goods_info add_box" goods_id="3358074" href="javascript:;">
+                            <div>
+                                <img src="./img/jiaru.png" alt="加入上架篮" style="visibility: visible; opacity: 1;">
+                            </div>
+                            <span>加入上架篮</span>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="youheda">
+            <h3>
+                <span>商品热卖</span>
+            </h3>
+            <li class="spxiaohe" id="sp" style="border-top: 1px solid #e8e8e8;">
+                <a href=""> 
+                    <img src="./img/jif.jpg" alt="">
+                </a>
+                <div class="div2">
+                    <a href="" class="title">
+                        御阳唤醒肌肤珍贵精油</a>
+                </div>
+                <div class="warp1">
+                    <a class="loginLook" href="/product/3358074.html">￥
+                        <span> 457.00</span>
+                    </a>
+                    <p class="xiaoliang">月销:<span>0</span></p>
+                </div>
+                <div class="warp2">
+                    <a class="goods_info add_box" goods_id="3358074" href="javascript:;">
+                        <div>
+                            <img src="./img/jiaru.png" alt="加入上架篮" style="visibility: visible; opacity: 1;">
+                        </div>
+                        <span>加入上架篮</span>
+                    </a>
+                </div>
+            </li>
+            <li class="spxiaohe" id="sp" style="border-top: 1px solid #e8e8e8;">
+                <a href=""> 
+                    <img src="./img/jif.jpg" alt="">
+                </a>
+                <div class="div2">
+                    <a href="" class="title">
+                        御阳唤醒肌肤珍贵精油</a>
+                </div>
+                <div class="warp1">
+                    <a class="loginLook" href="/product/3358074.html">￥
+                        <span> 457.00</span>
+                    </a>
+                    <p class="xiaoliang">月销:<span>0</span></p>
+                </div>
+                <div class="warp2">
+                    <a class="goods_info add_box" goods_id="3358074" href="javascript:;">
+                        <div>
+                            <img src="./img/jiaru.png" alt="加入上架篮" style="visibility: visible; opacity: 1;">
+                        </div>
+                        <span>加入上架篮</span>
+                    </a>
+                </div>
+            </li>
+            <li class="spxiaohe" id="sp" style="border-top: 1px solid #e8e8e8;">
+                <a href=""> 
+                    <img src="./img/jif.jpg" alt="">
+                </a>
+                <div class="div2">
+                    <a href="" class="title">
+                        御阳唤醒肌肤珍贵精油</a>
+                </div>
+                <div class="warp1">
+                    <a class="loginLook" href="/product/3358074.html">￥
+                        <span> 457.00</span>
+                    </a>
+                    <p class="xiaoliang">月销:<span>0</span></p>
+                </div>
+                <div class="warp2">
+                    <a class="goods_info add_box" goods_id="3358074" href="javascript:;">
+                        <div>
+                            <img src="./img/jiaru.png" alt="加入上架篮" style="visibility: visible; opacity: 1;">
+                        </div>
+                        <span>加入上架篮</span>
+                    </a>
+                </div>
+            </li>
+        </div>
+    </div>
+     <!-- 结尾 -->
+     <div class="foot">
+        <div class="fooder">
+            <div class="xp">
+                <img src="../src/img/000.png" alt="">
+            </div>
+            <div class="ContentClearfix">
+                <div>
+                    <img src="../src/img/ewm.png" style="float: right; margin-right: 80px;" alt="">
+                </div>
+                <dl class="item_1">
+                    <dt>关于<label style="display: inline;font-size: 12px;font-weight: normal;">多商网</label></dt>
+                    <dd>
+                      <ul>
+                        <li> <a href="" target="_blank">了解<label style="display: inline;font-size: 12px;font-weight: normal;">多商网</label></a> </li>
+                        <li> <a href="">密码找回</a> </li>
+                        <li> <a href="">常见问题</a> </li>
+                        <li> <a href="">联系我们</a> </li>
+                        <li> <a href="">营业执照</a> </li>
+                        <li> <a href="">食品经营许可证</a> </li>
+                      </ul>
+                    </dd>
+                  </dl>
+                  <dl class="item_2">
+                    <dt>分销商帮助</dt>
+                    <dd>
+                      <ul>
+                       <li><a href="">如何成为分销商</a></li>
+                       <li><a href="">进货、分销上架流程</a></li>
+                       <li><a href="">分销商成长路径</a></li>
+                      </ul>
+                    </dd>
+                  </dl>
+                  <dl class="item_3">
+                    <dt>供应商帮助</dt>
+                    <dd>
+                      <ul>
+                        <li> <a href="">我要入驻</a> </li>
+                        <li> <a href="">商品上架流程</a> </li>
+                      </ul>
+                    </dd>
+                  </dl>
+                  <dl class="item_4">
+                    <dt>多商学院</dt>
+                    <dd>
+                      <ul>
+                        <li> <a href="">电商头条</a> </li>
+                        <li> <a href="">明星卖家</a> </li>
+                        <li> <a href="">新零售</a> </li>
+                        <li> <a href="">培训</a> </li>
+                      </ul>
+                    </dd>
+                  </dl>
+            </div>
+            <div class="container">
+                <img src="../src/img/ds_nz_f.jpg" alt="">
+            </div>
+            <div class="foot_nav"> 
+                <a href="">关于我们</a> | 
+                <a href="" target="_blank">用户帮助</a> | 
+                <a href="" target="_blank">法律声明</a> | 
+                <a href="">联系我们</a> | 
+                <a href="">多商学院</a> | 
+                <a href="">经营证照</a>
+        </div>
+            <p> 趋势动力旗下广州友商信息科技有限公司版权所有©2005-2020   粤ICP备11099332号 站长统计站长统计</p>
+            <p>珠三角云供应链平台，支持淘宝代销、网店代理，免费提供一件代发</p>
+            <p>地址: 广州市中山大道89号天河软件园华景园区B栋西梯五楼 电话：400-616-3518</p>
+          </div>
+</div></div></body>
+</html>
